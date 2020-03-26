@@ -334,7 +334,6 @@
 				TargetAttributes = {
 					E43E7C6521D1077E00D9E31A = {
 						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = NWNC46252S;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -538,7 +537,7 @@
 				CODE_SIGN_ENTITLEMENTS = MPShareDemo_plugin/MPShareDemo_plugin.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWNC46252S;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -572,7 +571,7 @@
 				CODE_SIGN_ENTITLEMENTS = MPShareDemo_plugin/MPShareDemo_plugin.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWNC46252S;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
