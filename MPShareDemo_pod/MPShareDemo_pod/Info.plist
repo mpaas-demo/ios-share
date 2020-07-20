@@ -19,6 +19,8 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleIdentifier</key>
+			<string></string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
@@ -26,6 +28,16 @@
 				<string>wxa077a4686304b04a</string>
 				<string>wb1877934830</string>
 				<string>tencent101815269</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>dingtalk</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>dingoa5ri8qeitsaknejil</string>
 			</array>
 		</dict>
 	</array>
@@ -60,8 +72,6 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>Product ID</key>
-	<string>570DA89281533_IOS-default</string>
 	<key>Product Version</key>
 	<string>1.0.0.0</string>
 	<key>UIBackgroundModes</key>
@@ -87,23 +97,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>mPaaS</key>
-	<dict>
-		<key>AppId</key>
-		<string>570DA89281533</string>
-		<key>Platform</key>
-		<string>IOS</string>
-		<key>UniformGateway</key>
-		<string>https://cn-hangzhou-component-gw.cloud.alipay.com/mgw.htm</string>
-		<key>WorkspaceId</key>
-		<string>default</string>
-	</dict>
-	<key>mPaaSInternal</key>
-	<dict>
-		<key>SyncPort</key>
-		<string>443</string>
-		<key>SyncServer</key>
-		<string>cn-hangzhou-mss-link.cloud.alipay.com</string>
-	</dict>
 </dict>
 </plist>

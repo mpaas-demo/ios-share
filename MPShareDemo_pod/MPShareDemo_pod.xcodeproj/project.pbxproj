@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		01CCE8CAC337E9650DB6AF4F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B585C22FC96271F663733FF /* SystemConfiguration.framework */; };
+		44C99DD4248899C700514D71 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C99DD3248899C700514D71 /* WebKit.framework */; };
 		4CE290DEBEB8DBBC93C2FA61 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071F01A216B5EB66E80DD181 /* CoreTelephony.framework */; };
 		574EA1F070410AA1559502CF /* MPaaSInterface+MPShareDemo_pod.m in Sources */ = {isa = PBXBuildFile; fileRef = 62301254589B74997A469C75 /* MPaaSInterface+MPShareDemo_pod.m */; };
-		5FAFA9AAA7E52C6B8B9BCF63 /* APLogAdditions+MPShareDemo_pod.m in Sources */ = {isa = PBXBuildFile; fileRef = C97482339BAF53C2B333869E /* APLogAdditions+MPShareDemo_pod.m */; };
 		7BFEF566BE57B818A060BD01 /* libPods-MPShareDemo_pod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9AEA9E0B2BE3B6C79CAF4A /* libPods-MPShareDemo_pod.a */; };
 		8A2B3B0114AE199479EE3280 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B161BC474E3231D8D34DD8 /* SystemConfiguration.framework */; };
 		9751601E5CDF2A0B02A172A5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256EA7D12E4E4A0CFBA7C121 /* CoreTelephony.framework */; };
@@ -31,7 +31,7 @@
 		071F01A216B5EB66E80DD181 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		256EA7D12E4E4A0CFBA7C121 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		37EF00961EFB57FD82AE235B /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
-		50B93DE6C6D2C5AD1A018768 /* APLogAdditions+MPShareDemo_pod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APLogAdditions+MPShareDemo_pod.h"; sourceTree = "<group>"; };
+		44C99DD3248899C700514D71 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		62301254589B74997A469C75 /* MPaaSInterface+MPShareDemo_pod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+MPShareDemo_pod.m"; sourceTree = "<group>"; };
 		87A575E25BC2F6002D264D1E /* MPShareDemo_pod-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPShareDemo_pod-Prefix.pch"; path = "../../../MPShareDemo_pod/MPShareDemo_pod-Prefix.pch"; sourceTree = "<group>"; };
 		8AB86237CDB9623618D389A7 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
@@ -39,7 +39,6 @@
 		908DDB131718C25DF74853EC /* Pods-MPShareDemo_pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPShareDemo_pod.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPShareDemo_pod/Pods-MPShareDemo_pod.release.xcconfig"; sourceTree = "<group>"; };
 		A4E839F10516DA7F51F33985 /* MPShareDemo_pod-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPShareDemo_pod-mPaaS-Headers.h"; sourceTree = "<group>"; };
 		C8C1AE08CE12359680196532 /* Pods-MPShareDemo_pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPShareDemo_pod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPShareDemo_pod/Pods-MPShareDemo_pod.debug.xcconfig"; sourceTree = "<group>"; };
-		C97482339BAF53C2B333869E /* APLogAdditions+MPShareDemo_pod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APLogAdditions+MPShareDemo_pod.m"; sourceTree = "<group>"; };
 		DF9AEA9E0B2BE3B6C79CAF4A /* libPods-MPShareDemo_pod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPShareDemo_pod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40F3BF3224BA3AD00ADCD2F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E40F3BF5224BA3C200ADCD2F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -67,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C99DD4248899C700514D71 /* WebKit.framework in Frameworks */,
 				E40F3BF6224BA3C200ADCD2F /* CoreTelephony.framework in Frameworks */,
 				E40F3BF4224BA3AD00ADCD2F /* SystemConfiguration.framework in Frameworks */,
 				9751601E5CDF2A0B02A172A5 /* CoreTelephony.framework in Frameworks */,
@@ -97,7 +97,6 @@
 				87A575E25BC2F6002D264D1E /* MPShareDemo_pod-Prefix.pch */,
 				67E5C3F7526B9D484BF18204 /* mPaas */,
 				37EF00961EFB57FD82AE235B /* meta.config */,
-				F1026A7A3B47EE53A4593EF7 /* APRemoteLogging */,
 			);
 			path = MPShareDemo_pod;
 			sourceTree = "<group>";
@@ -133,6 +132,7 @@
 		DB2A2A9BAB5E147F0E81A082 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44C99DD3248899C700514D71 /* WebKit.framework */,
 				E40F3BF5224BA3C200ADCD2F /* CoreTelephony.framework */,
 				E40F3BF3224BA3AD00ADCD2F /* SystemConfiguration.framework */,
 				A8CB576E46657266964D670D /* iOS */,
@@ -205,15 +205,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F1026A7A3B47EE53A4593EF7 /* APRemoteLogging */ = {
-			isa = PBXGroup;
-			children = (
-				50B93DE6C6D2C5AD1A018768 /* APLogAdditions+MPShareDemo_pod.h */,
-				C97482339BAF53C2B333869E /* APLogAdditions+MPShareDemo_pod.m */,
-			);
-			path = APRemoteLogging;
-			sourceTree = "<group>";
-		};
 		FA8A65E3D9126D3CF9F1DE68 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,7 +246,7 @@
 				TargetAttributes = {
 					E43E7C6521D1077E00D9E31A = {
 						CreatedOnToolsVersion = 10.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -328,31 +319,23 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MPShareDemo_pod/Pods-MPShareDemo_pod-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MPShareDemo_pod/Pods-MPShareDemo_pod-resources.sh",
 				"${PODS_ROOT}/APRemoteLogging/APRemoteLogging.framework/APRemoteLogging.bundle",
 				"${PODS_ROOT}/AntUI/AntUI.framework/APCommonUI.bundle",
-				"${PODS_ROOT}/MPBadgeService/MPBadgeService.framework/MPBadgeService.bundle",
 				"${PODS_ROOT}/MPShareKit/MPShareKit.framework/MPShareKit.bundle",
-				"${PODS_ROOT}/MPShareKit/MPShareKit.framework/TencentOpenApi_IOS_Bundle.bundle",
 				"${PODS_ROOT}/MPShareKit/MPShareKit.framework/WeiboSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/APRemoteLogging.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/APCommonUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPBadgeService.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPShareKit.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MPShareDemo_pod/Pods-MPShareDemo_pod-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MPShareDemo_pod/Pods-MPShareDemo_pod-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -367,7 +350,6 @@
 				E44DC769224C671D00E5681D /* DemoViewController.m in Sources */,
 				E44DC768224C671D00E5681D /* MPShareDemoVC.m in Sources */,
 				574EA1F070410AA1559502CF /* MPaaSInterface+MPShareDemo_pod.m in Sources */,
-				5FAFA9AAA7E52C6B8B9BCF63 /* APLogAdditions+MPShareDemo_pod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,8 +493,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MPShareDemo_pod/MPShareDemo_pod.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: TANG TIAN (9SA6YTX83V)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -521,7 +503,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = comMpaasDemoProfile_20200616;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -532,8 +514,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MPShareDemo_pod/MPShareDemo_pod.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: TANG TIAN (9SA6YTX83V)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -542,7 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mpaas.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = comMpaasDemoProfile_20200616;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

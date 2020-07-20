@@ -2,7 +2,7 @@
 //  MPShareDemo_plugin-mPaaS-Headers.h
 //  MPShareDemo_plugin
 //
-//  Created by shifei.wkp on 2020/03/26.
+//  Created by vivi.yw on 2020/07/20.
 //  Copyright © 2020 Alibaba. All rights reserved.
 //
 

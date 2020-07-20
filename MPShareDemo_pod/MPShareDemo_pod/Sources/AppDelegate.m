@@ -18,11 +18,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     NSDictionary *configDic = @{
-    @"weixin" : @{@"key":@"wxa077a4686304b04a", @"secret":@"aa81504c94d6e70cecd623f97be6256a", @"universalLink": @"https://com.mpaas.demo/"},
+    @"weixin" : @{@"key":@"wxa077a4686304b04a", @"secret":@"aa81504c94d6e70cecd623f97be6256a", @"universalLink": @"https://mpaas-mappcenter.aliyuncs.com/weichat/"},
                             @"weibo" : @{@"key":@"1877934830", @"secret":@"1067b501c42f484262c1803406510af0"},
-                            @"qq" : @{@"key":@"101815269", @"secret":@"6a5dde7d8e04e860646ec2187a92017d"},
+                            @"qq" : @{@"key":@"101815269", @"secret":@"6a5dde7d8e04e860646ec2187a92017d", @"universalLink": @"https://mpaas-mappcenter.aliyuncs.com/qq_conn/101815269"},
                             @"alipay": @{@"key":@"2015060900117932"},/*该 key 对应的 bundleID 为"share.demo", 如需用来测试,请修改为自己申请的 key 或修改 bundleID 为"share.demo"*/
-                            @"dingTalk": @{@"key":@"dingoaa4aipzuf2yifw17s"}};
+                            @"dingTalk": @{@"key":@"dingoa5ri8qeitsaknejil"}};
     [APSKClient registerAPPConfig:configDic];
     
     return YES;
@@ -31,6 +31,12 @@
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
     [APSKClient handleOpenURL:url];
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void(^)(NSArray<id<UIUserActivityRestoring>> * __nullable restorableObjects))restorationHandler
+{
+    [APSKClient handleOpenUniversalLink:userActivity];
+    return YES;;
 }
 
 
